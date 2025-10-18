@@ -39,7 +39,7 @@ rpa_chuck_norris/
 ### **1️⃣ Clone o repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/rpa_chuck_norris.git
+git clone https://github.com/Daniel-Ayres/rpa_chuck_norris.git
 cd rpa_chuck_norris
 ```
 
