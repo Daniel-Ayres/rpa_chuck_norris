@@ -16,7 +16,7 @@ Este projeto é uma automação RPA desenvolvida em Python, que consome a API p�
 
 ## 🧱 Estrutura do Projeto
 
-
+```bash
 rpa_chuck_norris/
 │
 ├── main.py                      # Script principal da automação
@@ -26,12 +26,13 @@ rpa_chuck_norris/
 ├── modules/                     # Módulos organizados por responsabilidade
 │   ├── __init__.py
 │   ├── consumidor_api.py        # Consome a API do Chuck Norris
-│   ├── escritor_excel.py        # Salva piadas no Excel
-│   ├── leitor_excel.py          # Lê e exibe piadas da planilha
+│   ├── escritor_excel.py        # Salva as piadas no Excel
+│   ├── leitor_excel.py          # Lê e exibe as piadas da planilha
 │   └── log_config.py            # Configuração do sistema de logs
 │
 ├── data/                        # Planilhas geradas (não versionadas)
 └── logs/                        # Arquivos de log da execução (não versionados)
+```
 
 ## 🚀 Como Executar
 
