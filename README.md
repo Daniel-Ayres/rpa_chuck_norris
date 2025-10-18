@@ -36,55 +36,64 @@ rpa_chuck_norris/
 
 ## 🚀 Como Executar
 
-1.Clone o repositório:
+### **1️⃣ Clone o repositório**
 
+```bash
 git clone https://github.com/seu-usuario/rpa_chuck_norris.git
 cd rpa_chuck_norris
+```
 
-2.Instale as dependências:
+### 2️⃣ Instale as dependências
 
+```bash
 pip install -r requirements.txt
+```
+### 3️⃣ Execute o script principal
 
-
-3.Execute o script:
-
+```bash
 python main.py
+```
+### 4️⃣ Após a execução
 
+### 📁 A planilha será gerada em:
 
-4.Após a execução:
+```bash
+data/chuck_norris_jokes.xlsx
+```
 
-A planilha será gerada em: data/chuck_norris_jokes.xlsx
-
-O log estará disponível em: logs/execucao.log
-
-As piadas serão exibidas formatadas no terminal
+### 🪵 O log estará disponível em:
+```bash
+logs/execucao.log
+```
 
 
 ## 📦 Bibliotecas Utilizadas
 
-requests	 |   Realiza requisições HTTP para consumir a API
-___________________________________________________________
-pandas	   |  Manipulação de dados e escrita no Excel
-___________________________________________________________
-openpyxl	 | Utilizada pelo pandas para salvar arquivos .xlsx
-___________________________________________________________
-logging	   |  Registro de logs de eventos e erros
-___________________________________________________________
-os	       | Criação de diretórios e manipulação de caminhos de arquivos
-_____________________________________________________________
+| Biblioteca | Descrição |
+|-------------|------------|
+| **requests** | Responsável por realizar as requisições HTTP para consumir a API pública do Chuck Norris. |
+| **pandas** | Utilizada para manipulação e estruturação dos dados, além de facilitar a exportação para o formato Excel. |
+| **openpyxl** | Engine utilizada pelo `pandas` para salvar os dados em arquivos `.xlsx`. |
+| **logging** | Gerencia o registro de logs, permitindo rastrear cada etapa da execução da automação. |
+| **os** | Manipula diretórios e caminhos de arquivos, criando automaticamente as pastas `data/` e `logs/`. |
+
 
 ## ❓ Por que essas bibliotecas?
---requests é simples e robusta para consumir APIs RESTful, muito usada pela comunidade.
 
---pandas facilita a manipulação e estruturação dos dados, especialmente em formato tabular.
+- **🛰️ requests** — Simples e robusta para consumir **APIs RESTful**, amplamente utilizada pela comunidade Python.
+  
+- **📊 pandas** — Facilita a **manipulação e estruturação de dados** em formato tabular, permitindo salvar facilmente em planilhas Excel.
+   
+- **📘 openpyxl** — É a **engine recomendada pelo pandas** para leitura e escrita de arquivos `.xlsx` (Excel).
+  
+- **🧾 logging** — Permite **rastrear toda a execução da automação**, registrando informações e erros com diferentes níveis de log (`INFO`, `ERROR`, etc.).
+   
+- **📁 os** — Possibilita a **criação automática de diretórios**, como `data/` e `logs/`, tornando a automação independente do ambiente.  
 
---openpyxl é a engine recomendada pelo pandas para escrever arquivos .xlsx (Excel).
-
---logging permite rastrear toda a execução da automação com controle de nível (INFO, ERROR etc).
-
---os possibilita a criação automática de pastas como data/ e logs/, tornando a automação independente do ambiente.
 
 ## 🧪 Exemplo de Saída no Terminal
+
+```bash
 Buscando categorias disponíveis...
 Coletando uma piada por categoria...
 Salvando piadas no Excel...
@@ -101,7 +110,8 @@ ID       : 4uqhu_nmtncleixytkl0pq
 URL      : https://api.chucknorris.io/jokes/4uqhu_nmtncleixytkl0pq
 Piada    : Chuck Norris proceeded to eat the chips, the bag, and the man in one deft move.
 --------------------------------------------------------------------------------
-...
+```
+
 
 ## 🧑‍💻 Autor
 
