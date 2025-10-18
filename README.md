@@ -62,8 +62,6 @@ As piadas serão exibidas formatadas no terminal
 
 ## 📦 Bibliotecas Utilizadas
 
-Biblioteca |	Função
-___________________________________________________________
 requests	 |   Realiza requisições HTTP para consumir a API
 ___________________________________________________________
 pandas	   |  Manipulação de dados e escrita no Excel
